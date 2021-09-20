@@ -85,18 +85,18 @@ hr {
 
 .top-cloud {
   position: absolute;
-  right: 700px;
-  top: 50px;
+  right: 25%;
+  top: 10%;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 600px;
-  bottom: 400px;
+  left: 25%;
+  bottom: 40%;
 }
 
 .mountain {
-  width: 800px;
+  width: 31%;
 }
 
 /* PHOTOS */
