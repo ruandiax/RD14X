@@ -1,0 +1,281 @@
+/* ORGANIZATION */
+
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #071a52;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: center;
+  line-height: 2;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #086972 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+.btn {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  padding: 18px;
+  background-color: #a7ff83;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #337fed 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  border: solid #000000 0;
+  background: #a7ff83;
+  background-image: -webkit-linear-gradient(top, #a7ff83, #071a52);
+  background-image: -moz-linear-gradient(top, #a7ff83, #071a52);
+  background-image: -ms-linear-gradient(top, #a7ff83, #071a52);
+  background-image: -o-linear-gradient(top, #a7ff83, #071a52);
+  background-image: -webkit-gradient(to bottom, #a7ff83, #071a52);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+/*  CONTAINERS */
+
+.top-container {
+  text-align: center;
+  padding-top: 150px;
+  position: relative;
+}
+
+.middle-container {
+  text-align: center;
+  line-height: 2;
+}
+
+.bottom-container {
+  background-color: #086972;
+  padding: 50px 0 20px;
+}
+
+/* SITE ART */
+
+.top-cloud {
+  position: absolute;
+  right: 700px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 600px;
+  bottom: 400px;
+}
+
+.mountain {
+  width: 800px;
+}
+
+/* PHOTOS */
+
+.selfie {
+  border-radius: 100%;
+  width: 15%;
+  margin-right: 30px;
+}
+
+.pythonPic {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.webdevPic {
+  width: 25%;
+  float: right;
+  margin: 30px;
+}
+
+.languagePic {
+  width: 25%;
+  float: left;
+  margin: 30px;
+}
+
+.gitPic {
+  width: 25%;
+  float: right;
+  margin: 30px;
+}
+
+.mamacoVampiro {
+  width: 65px;
+}
+
+/* FONTS */
+
+.mynameFont {
+  font-family: "Dancing Script", cursive;
+  color: #a7ff83;
+  font-size: 520%;
+  margin-top: 0;
+}
+
+.undernameFont {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 120%;
+}
+
+.middleH {
+  font-family: "Dancing Script", cursive;
+  color: #a7ff83;
+  font-size: 70px;
+}
+
+.middleP {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 100%;
+  width: 90%;
+  margin: auto;
+}
+
+.skillsFont {
+  font-family: "Dancing Script", cursive;
+  color: #a7ff83;
+  font-size: 70px;
+}
+
+.pythonFont {
+  font-family: "Dancing Script", cursive;
+  color: #a7ff83;
+  font-size: 50px;
+}
+
+.webdevFont {
+  font-family: "Dancing Script", cursive;
+  color: #a7ff83;
+  font-size: 50px;
+}
+
+.languageFont {
+  font-family: "Dancing Script", cursive;
+  color: #a7ff83;
+  font-size: 50px;
+}
+
+.gitFont {
+  font-family: "Dancing Script", cursive;
+  color: #a7ff83;
+  font-size: 50px;
+}
+
+.gitaboutFont {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.contactFont {
+  font-family: "Dancing Script", cursive;
+  color: #a7ff83;
+  font-size: 70px;
+}
+
+.XFont {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 13px;
+}
+
+.underXFont {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+.aboutPython {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.webdevAbout {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.inglesFont {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.copyrightFont {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 0.75rem;
+  padding-top: 20px 0;
+}
+
+.footerlink {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.twitterFont {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  margin: auto 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.twitterFont:hover {
+  color: #a7ff83;
+}
+
+.linkFont {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  margin: auto 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.linkFont:hover {
+  color: #a7ff83;
+}
+
+.GitHubFont {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  margin: auto 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.GitHubFont:hover {
+  color: #a7ff83;
+}
