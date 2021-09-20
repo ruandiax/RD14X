@@ -244,18 +244,6 @@ hr {
   color: white;
 }
 
-.twitterFont {
-  font-family: "Montserrat", sans-serif;
-  color: white;
-  margin: auto 20px;
-  text-decoration: none;
-  font-size: 20px;
-}
-
-.twitterFont:hover {
-  color: #a7ff83;
-}
-
 .linkFont {
   font-family: "Montserrat", sans-serif;
   color: white;
