@@ -282,13 +282,14 @@ hr {
 /* New */
 
 .navbar {
-  padding: 0 0 4.5rem;
+  padding: 1.5% 1.5% 4.5rem;
 }
 
 .navbar-brand {
   font-family: "Dancing Script", cursive;
   font-size: 2rem;
   font-weight: bold;
+  padding-left: 3%;
 }
 
 .nav-item {
