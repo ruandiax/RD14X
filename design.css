@@ -174,45 +174,20 @@ hr {
   font-size: 70px;
 }
 
-.pythonFont {
+/* Carousel Fonts */
+
+.headerFont {
   font-family: "Dancing Script", cursive;
   color: #a7ff83;
   font-size: 70px;
 }
 
-.BSFont {
-  font-family: "Dancing Script", cursive;
-  color: #a7ff83;
-  font-size: 70px;
-}
-
-.webdevFont {
-  font-family: "Dancing Script", cursive;
-  color: #a7ff83;
-  font-size: 70px;
-}
-
-.languageFont {
-  font-family: "Dancing Script", cursive;
-  color: #a7ff83;
-  font-size: 70px;
-}
-
-.gitFont {
-  font-family: "Dancing Script", cursive;
-  color: #a7ff83;
-  font-size: 70px;
-}
-
-.gitaboutFont {
+.aboutFont {
   font-family: "Montserrat", sans-serif;
   color: white;
 }
 
-.BSFont-2 {
-  font-family: "Montserrat", sans-serif;
-  color: white;
-}
+/* Contact Font */
 
 .contactFont {
   font-family: "Dancing Script", cursive;
@@ -231,21 +206,6 @@ hr {
   font-family: "Montserrat", sans-serif;
   color: white;
   font-size: 20px;
-}
-
-.aboutPython {
-  font-family: "Montserrat", sans-serif;
-  color: white;
-}
-
-.webdevAbout {
-  font-family: "Montserrat", sans-serif;
-  color: white;
-}
-
-.inglesFont {
-  font-family: "Montserrat", sans-serif;
-  color: white;
 }
 
 .copyrightFont {
