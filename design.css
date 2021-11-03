@@ -1,13 +1,96 @@
 /* ORGANIZATION */
+* {
+  box-sizing: border-box;
+}
 
 body {
+  background-color: #071a52;
   margin: 0;
   text-align: center;
-  background-color: #071a52;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+/* Night Mode */
+
+.night-mode {
+  margin: 100px auto 100px auto;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 40vh;
+  transition: 0.2s linear;
+  width: 12%;
+  height: 10%;
+}
+
+body.dark {
+  background-color: #000000;
+}
+
+body.dark .mynameFont {
+  color: orange;
+}
+
+body.dark .middleH {
+  color: orange;
+}
+
+body.dark .headerFont {
+  color: orange;
+}
+
+body.dark .contactFont {
+  color: orange;
+}
+
+body.dark .btn {
+  background-color: #301b3f;
+}
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.checkbox:checked + .label .ball {
+  transform: translateX(24px);
+}
+
+.label {
+  background-color: grey;
+  align-items: center;
+  display: flex;
+  border-radius: 50px;
+  height: 26px;
+  padding: 5px;
+  width: 50px;
+  justify-content: space-between;
+  position: relative;
+  transform: scale(1.2);
+}
+
+.fa-lightbulb {
+  color: white;
+}
+
+.fa-spider {
+  color: white;
+}
+
+.ball {
+  width: 22px;
+  height: 22px;
+  background-color: white;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  border-radius: 50%;
+  transition: transform 0.1s linear;
 }
 
 .skill-row {
@@ -82,7 +165,6 @@ hr {
 }
 
 .bottom-container {
-  background-color: #071a52;
   padding: 50px 0 20px;
 }
 
@@ -108,7 +190,7 @@ hr {
 /* PHOTOS */
 
 .selfie {
-  border-radius: 100%;
+  border-radius: 30%;
   width: 15%;
   margin-right: 30px;
   padding-bottom: 2%;
@@ -272,7 +354,6 @@ hr {
 
 #skls {
   text-align: center;
-  background-color: #071a52;
   color: white;
   padding-bottom: 10%;
   padding-top: 7%;
