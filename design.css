@@ -6,6 +6,10 @@ body {
   background-color: #071a52;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .skill-row {
   width: 50%;
   margin: 100px auto 100px auto;
