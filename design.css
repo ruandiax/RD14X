@@ -34,18 +34,51 @@ body.dark {
 
 body.dark .mynameFont {
   color: orange;
+  font-family: "Creepster", cursive;
+}
+
+body.dark .linkFont {
+  color: white;
+  font-family: "Cinzel", serif;
+}
+
+body.dark .XFont {
+  color: white;
+  font-family: "Cinzel", serif;
+}
+
+body.dark .GitHubFont {
+  color: white;
+  font-family: "Cinzel", serif;
+}
+body.dark .undernameFont {
+  color: white;
+  font-family: "Cinzel", serif;
+}
+
+body.dark .middleP {
+  color: white;
+  font-family: "Cinzel", serif;
+}
+
+body.dark .aboutFont {
+  color: white;
+  font-family: "Cinzel", serif;
 }
 
 body.dark .middleH {
   color: orange;
+  font-family: "Creepster", cursive;
 }
 
 body.dark .headerFont {
   color: orange;
+  font-family: "Creepster", cursive;
 }
 
 body.dark .contactFont {
   color: orange;
+  font-family: "Creepster", cursive;
 }
 
 body.dark .btn {
