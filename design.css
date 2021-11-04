@@ -23,7 +23,7 @@ html {
   flex-direction: column;
   align-items: center;
   height: 40vh;
-  transition: 0.4s linear;
+  transition: 0.3s linear;
   width: 12%;
   height: 10%;
 }
@@ -215,7 +215,7 @@ hr {
   bottom: 40%;
 }
 
-.mountain {
+.memoji {
   width: 17%;
   padding-bottom: 13%;
 }
