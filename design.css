@@ -29,61 +29,66 @@ html {
 }
 
 body.dark {
-  background-color: #000000;
+  background-color: #2a0944;
 }
 
 body.dark .mynameFont {
-  color: orange;
-  font-family: "Creepster", cursive;
+  color: #a12568;
+  font-family: "Henny Penny", cursive;
 }
 
 body.dark .linkFont {
-  color: white;
-  font-family: "Cinzel", serif;
+  color: #916bbf;
+  font-family: "Montserrat", sans-serif;
+}
+
+body.dark .linkFont:hover {
+  color: #fec260;
 }
 
 body.dark .XFont {
   color: white;
-  font-family: "Cinzel", serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 body.dark .GitHubFont {
   color: white;
-  font-family: "Cinzel", serif;
+  font-family: "Montserrat", sans-serif;
 }
 body.dark .undernameFont {
   color: white;
-  font-family: "Cinzel", serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 body.dark .middleP {
   color: white;
-  font-family: "Cinzel", serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 body.dark .aboutFont {
   color: white;
-  font-family: "Cinzel", serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 body.dark .middleH {
-  color: orange;
-  font-family: "Creepster", cursive;
+  color: #a12568;
+  font-family: "Henny Penny", cursive;
 }
 
 body.dark .headerFont {
-  color: orange;
-  font-family: "Creepster", cursive;
+  color: #a12568;
+  font-family: "Henny Penny", cursive;
 }
 
 body.dark .contactFont {
-  color: orange;
-  font-family: "Creepster", cursive;
+  color: #a12568;
+  font-family: "Henny Penny", cursive;
 }
 
 body.dark .btn {
   background-color: #301b3f;
 }
+/* END OF DARK MODE */
 
 .checkbox {
   opacity: 0;
@@ -229,30 +234,6 @@ hr {
   padding-bottom: 2%;
 }
 
-.pythonPic {
-  width: 25%;
-  float: left;
-  margin-right: 30px;
-}
-
-.webdevPic {
-  width: 25%;
-  float: right;
-  margin: 30px;
-}
-
-.languagePic {
-  width: 25%;
-  float: left;
-  margin: 30px;
-}
-
-.gitPic {
-  width: 25%;
-  float: right;
-  margin: 30px;
-}
-
 .avatar {
   width: 65px;
 }
@@ -341,10 +322,10 @@ hr {
 
 .linkFont {
   font-family: "Montserrat", sans-serif;
-  color: white;
+  color: #5c6e91;
   margin: auto 20px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .linkFont:hover {
@@ -393,6 +374,6 @@ hr {
 }
 
 .skls-image {
-  width: 13%;
+  width: 7%;
   margin: 20px;
 }
